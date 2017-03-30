@@ -1,0 +1,13 @@
+#ifdef ASMREGS
+
+REGISTER(ax, 29)
+REGISTER(bx, 30)
+REGISTER(cx, 31)
+REGISTER(dx, 32)
+REGISTER(flag, 33)
+REGISTER(sp, 34)
+REGISTER(ip, 35)
+
+#endif
+
+
