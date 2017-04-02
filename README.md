@@ -15,7 +15,7 @@ as, bx, cx, dx, flag, ip
   
   again:
   
-  do_hust:
+  du_hast:
   
   
   Плохие
