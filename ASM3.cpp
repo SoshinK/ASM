@@ -191,7 +191,7 @@ void  ASM::precompile()
 		while(sscanf(linepointer, "%s", cur_cmd_) > 0)
 			{
 			int scmd = strlen(cur_cmd_);
-			if(cur_cmd_[scmd - 1] == ':' && (sline - 2) == scmd)//label has been found
+			if(cur_cmd_[scmd - 1] == ':')//label has been found
 				{
 				labels_[q_cmds_ + 1] = (char*)malloc(sizeof(char) * MAX_LABELNAME_SIZE);
 				cur_cmd_[scmd - 1] = '\0';//now cur_cmd_ contain only  label name without ':'
