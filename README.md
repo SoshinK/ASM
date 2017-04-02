@@ -20,10 +20,14 @@ as, bx, cx, dx, flag, ip
   
   Плохие
   
-  vechnost pahnet neftyu:    пробелы в имени (Undeclared 'vechnost')   
+  vechnost pahnet neftyu:    пробелы в имени (Undeclared 'vechnost') 
+  
   label                      нетдвоеточия (Undeclared 'label')
+  
   qqq :                      пробел перед : (Undeclared 'qqq')
+  
   :                          компиляция пройдет успешно, но вы не сможете к такой метке обратиться(попытка написать jmp приведет к too few arguments)
+  
   label1: eqweqwe           -строка закончилась не двоеточием (Wrong syntax in label definition 'eqweqwe')
   
   
