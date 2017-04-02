@@ -29,7 +29,7 @@ COMMAND(outr, 1, 0, 0)
 
 COMMAND(cmpr, 2, 0, 0)
 
-COMMAND(jmpr, 2, 0, 0)
+COMMAND(jmp, 0, 0, 1)
 COMMAND(ja, 0, 0, 1)
 COMMAND(jae, 0, 0, 1)
 COMMAND(jb, 0, 0, 1)
