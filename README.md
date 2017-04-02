@@ -9,8 +9,11 @@ as, bx, cx, dx, flag, ip
 
   Хорошие метки
   label666:
+  
   again:
+  
   do_hust:
+  
   
   Плохие:
   vechnost pahnet neftyu:   -пробелы в имени (Undeclared 'vechnost')   
