@@ -1,7 +1,7 @@
 # ASM
 1.0 Регистры процессора
 
-as, bx, cx, dx, flag, ip
+ax, bx, cx, dx, flag, ip
 
 1.1 Синтаксис
 
