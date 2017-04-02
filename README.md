@@ -1,8 +1,10 @@
 # ASM
 1.0 Регистры процессора
+
 as, bx, cx, dx, flag, ip
 
 1.1 Синтаксис
+
   а) Каждая комманда с ее аргуметами стоит в отдельной строке
   
   б) Каждая метка стоит в отдельной строке, заканчивающейся двоеточием. В имени метки не может быть пробелов, перед двоеточием тоже
@@ -18,10 +20,10 @@ as, bx, cx, dx, flag, ip
   
   Плохие
   
-  vechnost pahnet neftyu:   -пробелы в имени (Undeclared 'vechnost')   
-  label                     -нет двоеточия (Undeclared 'label')
-  qqq :                     -пробел перед : (Undeclared 'qqq')
-  :                         -компиляция пройдет успешно, но вы не сможете к такой метке обратиться(попытка написать jmp приведет к too few arguments)
+  vechnost pahnet neftyu:    пробелы в имени (Undeclared 'vechnost')   
+  label                      нетдвоеточия (Undeclared 'label')
+  qqq :                      пробел перед : (Undeclared 'qqq')
+  :                          компиляция пройдет успешно, но вы не сможете к такой метке обратиться(попытка написать jmp приведет к too few arguments)
   label1: eqweqwe           -строка закончилась не двоеточием (Wrong syntax in label definition 'eqweqwe')
   
   
